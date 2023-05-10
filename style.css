@@ -1,0 +1,44 @@
+*{
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+html {
+    background: url(https://cdn.pixabay.com/photo/2021/03/05/09/41/novel-6070812_960_720.jpg) no-repeat center fixed;
+    background-size: cover;
+  }
+
+#backdrop {
+    background-color: ghostwhite;
+    opacity: 0.9;
+    font-family: 'source sans pro';
+    width: 1000px;
+    border: 10px solid white;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 5cm;
+    box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
+}  
+
+.answer-tiles {
+  height: 60px;
+  width: 55px;
+  margin: 5px;
+  color: rgb(27, 27, 48);
+  font-size: 24px;
+  border-radius: 5px;
+  text-transform: uppercase;
+  text-align: center;
+  border: 10px solid rgb(221, 44, 212);
+}
+
+
+
+
+
+
+
+
+
+

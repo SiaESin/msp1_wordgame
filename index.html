@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Guess The Word: Wizarding World Edition</title>
+</head>
+<body>
+    <button id="how-to">How To Play</button>
+    <!-- game area -->
+    <div id="backdrop">
+    <!-- title -->
+        <div id="game-title">
+            <h1>Guess The Word: Wizarding World Edition</h1>
+        </div>
+    <!-- score (puzzles completed)-->
+    <!-- letter/answer area -->
+        <div id="gameboard">
+            <input type="text" class="answer-tiles" maxlength="1">
+            <div class="tiles"></div>
+    <!-- clue/question -->
+            <div id="details">
+                <p class="question"><span></span></p>
+    <!-- extra hint button and pop-up(?) maybe -->
+    <!-- guessed letters -->
+                <p class="guessed">Letter graveyard: <span></span></p>
+    <!-- guesses remaining -->
+                <p class="attempts">You have <span></span> attempts remaining</p>
+    <!-- timer? Found countdown but looking for a time keeper-->
+            </div>
+    <!-- restart game -->
+            <button id="restart">Restart Game?</button>
+        </div>
+    </div>
+<script src="./app.js"></script>
+</body>
+</html>
