@@ -21,24 +21,28 @@ html {
     box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
 }  
 
-.answer-tiles {
+.tiles input{
   height: 60px;
   width: 55px;
   margin: 5px;
   color: rgb(27, 27, 48);
   font-size: 24px;
+  font-weight: 500;
   border-radius: 5px;
   text-transform: uppercase;
   text-align: center;
-  border: 10px solid rgb(221, 44, 212);
+  border: 2px solid rgb(44, 56, 221);
 }
-
-
-
-
-
-
-
-
-
-
+#gameboard #restart {
+  width: 100%;
+  cursor: pointer;
+  color: ghostwhite;
+  padding: 15px;
+  font-size: 17px;
+  border-radius: 5px;
+  background:rgb(10, 10, 17);
+  transition: all 0.3s ease;
+}
+#gameboard #restart:hover{
+  background: rgb(87, 1, 1);
+} 
