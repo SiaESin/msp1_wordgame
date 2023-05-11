@@ -7,8 +7,9 @@
 html {
     background: url(https://cdn.pixabay.com/photo/2021/03/05/09/41/novel-6070812_960_720.jpg) no-repeat center fixed;
     background-size: cover;
+    animation: change 90s infinite ease;
   }
-/* animated background code https://youtu.be/IwEqvjsDVU0 */
+
 #backdrop {
     background-color: ghostwhite;
     opacity: 0.9;
@@ -27,6 +28,9 @@ html {
 .tiles input{
   height: 60px;
   width: 55px;
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: center;
   margin: 5px;
   color: rgb(27, 27, 48);
   font-size: 24px;
@@ -67,5 +71,19 @@ html {
   font-weight: 800;
   font-size: 20px;
 }
-
+/* animated background code https://youtu.be/IwEqvjsDVU0 */
+@keyframes change{
+  0%
+  { background-image: url(https://cdn.pixabay.com/photo/2021/03/05/09/41/novel-6070812_960_720.jpg)}
+  20%
+  { background-image: url(https://cdn.pixabay.com/photo/2015/04/15/16/18/train-station-724090_960_720.jpg)}
+  40%
+  { background-image: url(https://cdn.pixabay.com/photo/2015/10/06/22/04/harry-potter-975362_960_720.jpg)}
+  60%
+  { background-image: url(https://cdn.pixabay.com/photo/2020/04/22/15/08/wizard-5078583_960_720.jpg)}
+  80%
+  { background-image: url(https://cdn.pixabay.com/photo/2017/06/02/23/54/harry-potter-2367608_960_720.jpg)}
+  100%
+  { background-image: url(https://cdn.pixabay.com/photo/2021/03/05/09/41/novel-6070812_960_720.jpg)}
+}
 

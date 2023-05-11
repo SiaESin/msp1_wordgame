@@ -1,21 +1,6 @@
 # MileStoneProject_1
  
- Guess the word - Wizarding World edition
-    title  
-    score (puzzles completed)
-    letter/answer area
-    clue/question
-    guesses remaining
-    extra hint button and pop-up(?) maybe
-    guessed letters
-    timer?
-    restart game
-
-afterwards or bonus: difficulty selector. maybe a house selector
-
-
-issues: multi word answers????
-change backgrounds with new word?
+ 
 
 XXX IMPORTANT! DELETE THIS LINE AND THIS SECTION (LINES 3-10) BEFORE YOU REVISE YOUR README AND SUBMIT YOUR FINAL PROJECT XXX
 
@@ -61,52 +46,54 @@ The web game is deployed at <YOUR DEPLOYED GITHUB.IO URL GOES HERE>.
 
 ## Project Description
 
-_(Replace this text with a brief description of your game and what inspired you to make it.)_
+As a certified Potterhead, I love Harry Potter Trivia. I didn't want to do a multiple choice type of trivia but I definitely wanted to test the players knowledge. I came across Code with Ania Kubów and her trivia app game but it was a little advanced for me. She also had a Wordle copy and that made me think of a word guessing game. The player would still need to use the hints/questions but I could more easily control the answer they give. 
+There were a few word guessing games that were able to provide inspiration and give me a good direction. The two main ones are listed in the code. 
 
 
 ## Game Logic
-
-```
-XXX IMPORTANT! Replace all of this text with your own writing as you do these tasks/answer these questions THEN DELETE THIS LINE XXX
-
-The writing should describe in plain, simple language the logic of the game.
-Describe the logic involved in player decisions.
-  - What are the choices available to the player?
-  - What happens when the player makes a choice?
-Describe the logic that evaluates the player's victory/loss/progress status.
-```
+Using the hint/question, guess the letters to spell out the answer. Will you prove yourself to be an exceptional Witch or Wizard or are you a muggle?
+This is intended as a single player game but you can play with friends as well. 
+When you select a correct letter it will show up in the appropriate box. If you choose an incorrect letter, it will move to the letter graveyard.  You get between 5 - 8 chances depending on the length of the word. You win when you find the answer.
 
 ## Deliverables
 
->Even if you have a great big idea for a game, it's important to scope this project according to what you can get done in the next two weeks. We'll refer to your project completion goal using the term **[Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product) (MVP)** -- a list of the criteria needed to "ship" a playable version of your game that meets the project requirements.
->
->*Don't lose sight of your big ideas, though! Keep a list of further improvements you can refer to as **Post-MVP Ideas**. You might finish some before our project time is done, or you might work on them later!*
->
-> For your README, delete this blockquote and fill in the lists below.
-
-
+**[Minimum Viable Product](https://en.wikipedia.org/wiki/Minimum_viable_product) (MVP)** -- a list of the criteria needed to "ship" a playable version of your game that meets the project requirements.
 ### MVP Criteria
+- One thing my game must do to meet my minimum standard.
+Guess the word - Wizarding World edition
+    title  
+    score (puzzles completed)
+    letter/answer area
+    clue/question
+    guesses remaining
+    guessed letters
+    restart game
+
+
+
+
+
 
 XXX IMPORTANT! Replace the text below as you list the MVP criteria you met AND THEN DELETE THIS LINE XXX
 
-- One thing my game must do to meet my minimum standard.
-- Another thing.
-- Etc.
-
 SOURCE CITATION 
 https://www.youtube.com/watch?v=-qd5sjOfgYY&t=116s 
+https://www.youtube.com/watch?v=IwEqvjsDVU0
 
 
 ### Post-MVP Plans
 
-XXX IMPORTANT! Replace the text below as you list what you would do to improve the game post-MVP AND THEN DELETE THIS LINE XXX
-
 - One great idea I hope to be able to add in before the project deadline.
+- stretch goal:
+  afterwards or bonus: difficulty selector. maybe a house selector
+  extra hint button and pop-up(?) maybe
+  timer?
 - Another that will be a stretch.
+  issues: multi word answers????
+  change backgrounds ?  woohoo DONE!
 - Something else I don't technically know how to do... *yet*. :)
 
 
-XXX IMPORTANT! USE THIS SPACE FOR THE SCHEDULE WE END UP MAKING IN CLASS AND ADD ANY PERSONAL INFO AS NEEDED. THE README IS NOT JUST A PLACE TO TELL OTHERS ABOUT THE CODE IN YOUR APP, BUT ALSO IT CAN BE A PART OF THE WAY YOU PLAN AND KEEP TRACK OF YOUR PROGRESS MAKING YOUR APP. BUT MAKE SURE TO DELETE ALL OF TEXT BELOW THIS LINE BEFORE YOU SUBMIT THE PROJECT FINALLY XXX
 
 ## Project Planning
 
