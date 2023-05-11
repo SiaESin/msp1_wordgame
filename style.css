@@ -8,7 +8,7 @@ html {
     background: url(https://cdn.pixabay.com/photo/2021/03/05/09/41/novel-6070812_960_720.jpg) no-repeat center fixed;
     background-size: cover;
   }
-
+/* animated background code https://youtu.be/IwEqvjsDVU0 */
 #backdrop {
     background-color: ghostwhite;
     opacity: 0.9;
@@ -20,7 +20,10 @@ html {
     margin-top: 5cm;
     box-shadow: 10px 10px 15px 0px rgba(0,0,0,0.75);
 }  
-
+#game-title {
+  font-weight: 500;
+  padding: 20px 25px;
+}
 .tiles input{
   height: 60px;
   width: 55px;
@@ -32,6 +35,10 @@ html {
   text-transform: uppercase;
   text-align: center;
   border: 2px solid rgb(44, 56, 221);
+}
+
+#gameboard{
+  margin: 25px 25px 35px;
 }
 #gameboard #restart {
   width: 100%;
@@ -45,4 +52,20 @@ html {
 }
 #gameboard #restart:hover{
   background: rgb(87, 1, 1);
-} 
+ 
+}
+.answer-tiles {
+  position: absolute;
+  z-index: -100;
+  opacity: 0;
+}
+#details .question {
+  font-size: 25px;
+}
+#details .guessed {
+  color: red;
+  font-weight: 800;
+  font-size: 20px;
+}
+
+

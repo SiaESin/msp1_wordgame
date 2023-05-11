@@ -248,25 +248,27 @@ const wordList = [
 ]
 //game functions
 const tiles = document.querySelector('.tiles'),
-questionTag = document.querySelector('.question span'), 
-attempts = document.querySelector('.attempts span'), 
+questionTag = document.querySelector('.question span'),
+attempts = document.querySelector('.attempts span'),
 graveyard = document.querySelector('.guessed span'),
-restartButton = document.querySelector('#restart'), 
+restartButton = document.querySelector('#restart'),
 answerTiles = document.querySelector('.answer-tiles');
 
-let word, maxGuesses, wrongLetters = [], correctLetters = [];
+const winCount = document.querySelector('.win-count span');
+
+let word, maxGuesses, wrongLetters = [], correctLetters = []; 
 //New word
 function gamePlay(){
     let newWord = wordList[Math.floor(Math.random() * wordList.length)]
     word = newWord.word
-    //set number of guesses 
+    //set number of guesses
     maxGuesses = word.length >= 6 ? 8 : 5
     attempts.innerText = maxGuesses
     //wrong answers
     correctLetters = []; wrongLetters = [];
     questionTag.innerText = newWord.question
     graveyard.innerText = wrongLetters
-    
+   
     // this part of code from https://www.codingnepalweb.com/word-guessing-game
     let html = '';    
     for (let i = 0; i < word.length; i++){
@@ -275,7 +277,7 @@ function gamePlay(){
     }
 }
 gamePlay()
-
+const wins = [];
 
 //event listeners to set up the game.
 function startGame(e) {
@@ -291,9 +293,12 @@ function startGame(e) {
         } else {
             maxGuesses--;
             wrongLetters.push(` ${key}`);
+            wins = 0   // work on this!!!
         }
         attempts.innerText = maxGuesses
         graveyard.innerText = wrongLetters
+        winCount.innerText = wins
+     
     }
     answerTiles.value = '';
 //winner alert
@@ -301,6 +306,7 @@ function startGame(e) {
         if(correctLetters.length === word.length) {
             alert(`You're a little scary sometimes, you know that? Brilliant... but scary! Good job!`)
             return gamePlay()
+            wins++; //win count
         } else if (maxGuesses === 0) {
             alert(`Don't let the muggles get you down, try again!`)
             for(let i = 0; i < word.length; i++){
