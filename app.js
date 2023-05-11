@@ -277,7 +277,7 @@ function gamePlay(){
     }
 }
 gamePlay()
-const wins = [];
+// const wins = [];
 
 //event listeners to set up the game.
 function startGame(e) {
@@ -293,11 +293,11 @@ function startGame(e) {
         } else {
             maxGuesses--;
             wrongLetters.push(` ${key}`);
-            wins = 0   // work on this!!!
+           // wins = 0    work on this!!!
         }
         attempts.innerText = maxGuesses
         graveyard.innerText = wrongLetters
-        winCount.innerText = wins
+        // winCount.innerText = wins
      
     }
     answerTiles.value = '';
@@ -305,8 +305,8 @@ function startGame(e) {
     setTimeout(() => {
         if(correctLetters.length === word.length) {
             alert(`You're a little scary sometimes, you know that? Brilliant... but scary! Good job!`)
+            // wins++; //win count
             return gamePlay()
-            wins++; //win count
         } else if (maxGuesses === 0) {
             alert(`Don't let the muggles get you down, try again!`)
             for(let i = 0; i < word.length; i++){
