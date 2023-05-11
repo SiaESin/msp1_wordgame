@@ -252,9 +252,10 @@ questionTag = document.querySelector('.question span'),
 attempts = document.querySelector('.attempts span'),
 graveyard = document.querySelector('.guessed span'),
 restartButton = document.querySelector('#restart'),
-answerTiles = document.querySelector('.answer-tiles');
+answerTiles = document.querySelector('.answer-tiles'),
+howTo = document.querySelector('#how-to');
 
-const winCount = document.querySelector('.win-count span');
+// const winCount = document.querySelector('.win-count span');
 
 let word, maxGuesses, wrongLetters = [], correctLetters = []; 
 //New word
@@ -315,10 +316,13 @@ function startGame(e) {
         }
     }, 100)
 }
-
+directions(){
+    if (confirm ('Type a letter, guess the word'))
+}
 
 //instructions
 //reset button
+howTo.addEventListener('click')
 restartButton.addEventListener('click', gamePlay);
 answerTiles.addEventListener('input', startGame);
 tiles.addEventListener('click', () => answerTiles.focus());

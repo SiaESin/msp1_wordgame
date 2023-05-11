@@ -1,9 +1,10 @@
 # MileStoneProject_1
  
- 
+ Word guessing game: Wizarding World edition
 
-XXX IMPORTANT! DELETE THIS LINE AND THIS SECTION (LINES 3-10) BEFORE YOU REVISE YOUR README AND SUBMIT YOUR FINAL PROJECT XXX
-
+SOURCE CITATION 
+https://www.youtube.com/watch?v=-qd5sjOfgYY&t=116s 
+https://www.youtube.com/watch?v=IwEqvjsDVU0
 ## General Requirements
 
 
@@ -12,8 +13,6 @@ XXX IMPORTANT! DELETE THIS LINE AND THIS SECTION (LINES 3-10) BEFORE YOU REVISE 
 - Ideally, put your empty project up on Github on day one of development and aim for multiple commits per day.
 - This game must be deployed on Github Pages or another location.
 
-
-XXX IMPORTANT! DELETE THIS LINE AND THIS SECTION (LINES 15-26) BEFORE YOU REVISE YOUR README AND SUBMIT YOUR FINAL PROJECT XXX
 
 ## Game Requirements
 
@@ -26,10 +25,8 @@ XXX IMPORTANT! DELETE THIS LINE AND THIS SECTION (LINES 15-26) BEFORE YOU REVISE
 - HTML, CSS, and JavaScript should be written in separate files.
 - Effort must be spent on styling and appearance.
 - The HTML code should use sematic tags.
-- The GitHub repository for your game should have a README.md that describes the inspiration for the game, explains the controls and how to play the game, lists the technologies used to build the game, and addresses any outstanding bugs or unfinished functionality.
 
 
-XXX IMPORTANT! DELETE THIS LINE AND THE SECTION (LINES 31-37 SO FAR) BEFORE YOU REVISE YOUR README AND SUBMIT YOUR FINAL PROJECT XXX
 
 # NYU-SD-01 Milestone Project: Planning
 
@@ -70,11 +67,6 @@ Guess the word - Wizarding World edition
     restart game
 
 
-
-
-
-
-XXX IMPORTANT! Replace the text below as you list the MVP criteria you met AND THEN DELETE THIS LINE XXX
 
 SOURCE CITATION 
 https://www.youtube.com/watch?v=-qd5sjOfgYY&t=116s 
