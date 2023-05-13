@@ -72,6 +72,11 @@ html {
   font-weight: 800;
   font-size: 20px;
 }
+audio {
+  position: absolute;
+  z-index: -100;
+  opacity: 0;
+}
 /* animated background code https://youtu.be/IwEqvjsDVU0 */
 @keyframes change{
   0%
