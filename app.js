@@ -1,4 +1,3 @@
-//pick a game! guess the word (like hang man)
 //word list
 const wordList = [
     {word: "acromantula",
@@ -255,22 +254,22 @@ restartButton = document.querySelector('#restart'),
 answerTiles = document.querySelector('.answer-tiles'),
 howTo = document.querySelector('#how-to');
 
-// const winCount = document.querySelector('.win-count span');
+//const winCount = document.querySelector('.win-count span');
 
 let word, maxGuesses, wrongLetters = [], correctLetters = []; 
 //New word
 function gamePlay(){
     let newWord = wordList[Math.floor(Math.random() * wordList.length)]
     word = newWord.word
-    //set number of guesses
+//set number of guesses
     maxGuesses = word.length >= 6 ? 8 : 5
     attempts.innerText = maxGuesses
-    //wrong answers
+//wrong answers
     correctLetters = []; wrongLetters = [];
     questionTag.innerText = newWord.question
     graveyard.innerText = wrongLetters
    
-    // this part of code from https://www.codingnepalweb.com/word-guessing-game
+// this part of code from https://www.codingnepalweb.com/word-guessing-game
     let html = '';    
     for (let i = 0; i < word.length; i++){
         html += `<input type='text' disabled>`;
@@ -305,7 +304,7 @@ function startGame(e) {
 //winner alert
     setTimeout(() => {
         if(correctLetters.length === word.length) {
-            alert(`You're a little scary sometimes, you know that? Brilliant... but scary! Good job!`)
+            alert(`"You're a little scary sometimes, you know that? Brilliant... but scary!" Great job! You have answered correctly. Can you do it again?`)
             // wins++; //win count
             return gamePlay()
         } else if (maxGuesses === 0) {
@@ -316,13 +315,13 @@ function startGame(e) {
         }
     }, 100)
 }
-directions(){
-    if (confirm ('Type a letter, guess the word'))
-}
+function direction() {
+    alert("Using the hint/question, guess the letters to spell out the answer. You get between 5 or 8 attempts, depending on the length of the word. You win when you find the answer.");
+  }
 
 //instructions
 //reset button
-howTo.addEventListener('click')
+howTo.addEventListener('click', direction)
 restartButton.addEventListener('click', gamePlay);
 answerTiles.addEventListener('input', startGame);
 tiles.addEventListener('click', () => answerTiles.focus());
