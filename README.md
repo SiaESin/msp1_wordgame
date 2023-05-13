@@ -39,9 +39,11 @@ Guess the word - Wizarding World edition
 
 
 SOURCE CITATION 
+https://drive.google.com/file/d/1sEOhJRV6CLJYx4v2CUTBayEmXd0ULjcv/view   audio file from https://www.youtube.com/watch?v=eHn8eF0nwD0  
 https://www.youtube.com/watch?v=-qd5sjOfgYY&t=116s 
 https://www.youtube.com/watch?v=IwEqvjsDVU0
-
+all background images from pixabay.com
+https://www.codingnepalweb.com/word-guessing-game inspiration 
 
 ### Post-MVP Plans
 
