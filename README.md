@@ -2,10 +2,6 @@
  
  Word guessing game: Wizarding World edition
 
-SOURCE CITATION 
-https://www.youtube.com/watch?v=-qd5sjOfgYY&t=116s 
-https://www.youtube.com/watch?v=IwEqvjsDVU0
-
 ## Deployment
 
 The web game is deployed at <https://siaesin.github.io/msp1_wordgame/>.

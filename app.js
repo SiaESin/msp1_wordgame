@@ -66,7 +66,7 @@ const wordList = [
     {word: "divination",
      question: "Which subject did Prof. Trelawney teach?"
     },
-    {word: "dormiens ",
+    {word: "dormiens",
      question: "Draco ________ Nunquam Titillandus"
     },
     {word: "durmstrang",
