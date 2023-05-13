@@ -5,40 +5,10 @@
 SOURCE CITATION 
 https://www.youtube.com/watch?v=-qd5sjOfgYY&t=116s 
 https://www.youtube.com/watch?v=IwEqvjsDVU0
-## General Requirements
-
-
-- This game must run in a web browser.
-- This game must be tracked in Github, with a minimum of 10 commits.
-- Ideally, put your empty project up on Github on day one of development and aim for multiple commits per day.
-- This game must be deployed on Github Pages or another location.
-
-
-## Game Requirements
-
-- The game can be designed for 2 or more players (PvP) or for 1 player (PvE).
-  - The second player in a PvP game can be a person or an AI. (In this case, think of "AI" as a logical pattern.)
-  - For multi-player games, turns should switch appropriately between players
-- The game should be winnable, or it should keep score (or track player progress in a meaningful way).
-  - When a player wins or loses, the game status and/or score should display visually to the player in a way that does not rely on console.logs or alerts.
-  - If there is a valid draw (tie) condition in your chosen game, that should be implemented.
-- HTML, CSS, and JavaScript should be written in separate files.
-- Effort must be spent on styling and appearance.
-- The HTML code should use sematic tags.
-
-
-
-# NYU-SD-01 Milestone Project: Planning
-
-_Before you start programming your project_... plan it!
-
-Complete the planning sections below and include them in the README.md of your project repository. Once you're done, reach out to your instructional staff -- they'll examine your plan, help you scope it appropriately for the tools available to you and think ahead toward technical solutions, and point out any areas that could use any more thought. _Use the template below!_
-
---------
 
 ## Deployment
 
-The web game is deployed at <YOUR DEPLOYED GITHUB.IO URL GOES HERE>.
+The web game is deployed at <https://siaesin.github.io/msp1_wordgame/>.
 
 
 ## Project Description

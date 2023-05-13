@@ -74,8 +74,10 @@ html {
 }
 audio {
   position: absolute;
-  z-index: -100;
-  opacity: 0;
+  z-index: 100;
+  opacity: .5;
+  height: 30px;
+  width: 255px;
 }
 /* animated background code https://youtu.be/IwEqvjsDVU0 */
 @keyframes change{
