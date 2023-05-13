@@ -280,6 +280,7 @@ gamePlay()
 // const wins = [];
 
 //event listeners to set up the game.
+// this part of code from https://www.codingnepalweb.com/word-guessing-game
 function startGame(e) {
     let key = e.target.value;
     if(key.match(/^[A-Za-z]+$/) && !wrongLetters.includes(` ${key}`) && !correctLetters.includes(key)) {
